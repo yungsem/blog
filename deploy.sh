@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+·#!/usr/bin/env bash
 set -Eeuo pipefail
 
 DEFAULT_DEPLOY_REPO="git@github.com:aprilmq/aprilmq.github.io.git"
