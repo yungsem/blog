@@ -1,9 +1,9 @@
-·#!/usr/bin/env bash
+#!/usr/bin/env bash
 set -Eeuo pipefail
 
-DEFAULT_DEPLOY_REPO="git@github.com:aprilmq/aprilmq.github.io.git"
+DEFAULT_DEPLOY_REPO="https://github.com/yungsem/yungsem.github.io.git"
 DEPLOY_REPO="${DEPLOY_REPO:-$DEFAULT_DEPLOY_REPO}"
-SOURCE_REPO="${SOURCE_REPO:-git@github.com:aprilmq/blog.git}"
+SOURCE_REPO="${SOURCE_REPO:-https://github.com/yungsem/blog.git}"
 DEPLOY_BRANCH="${DEPLOY_BRANCH:-main}"
 PUBLISH_DIR="${PUBLISH_DIR:-public}"
 DEFAULT_COMMIT_MESSAGE="${1:-Deploy blog $(date '+%Y-%m-%d %H:%M:%S %z')}"
